@@ -1,0 +1,23 @@
+/*HEADER*/
+h1 {
+    background-image: url("https://images.all-free-download.com/images/graphicthumb/megepack_background_psd_layered_176114.jpg");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 70px;
+    /*
+      text-shadow: 2px 2px 1px grey;
+      text-shadow: transparent;
+      */
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  
+  h1:hover {
+    cursor: pointer;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }

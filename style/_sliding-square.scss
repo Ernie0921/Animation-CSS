@@ -1,0 +1,22 @@
+/*SLIDING BOX*/
+.box {
+    width:100px;
+    height: 100px;
+    background-color: red;
+    animation-name: square;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   position: absolute;
+ 
+  }
+  @keyframes square {
+   from {
+     margin-left: 0px;
+   }
+   to {
+     margin-left: 95%;
+     border-radius: 50%;
+     background-color: dodgerblue;
+   }
+  }
